@@ -1,4 +1,4 @@
-# Emulating a trial of a policy intervention in the setting of finite treatment resources: an application to increased risk organ transplantation
+# Estimating the effect of increased utilization of living donor liver transplantation
 # Introduction
 Here we provide the code to reproduce the analysis described in: 
 
