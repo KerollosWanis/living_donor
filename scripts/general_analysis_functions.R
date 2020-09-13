@@ -6,7 +6,7 @@ resultsfnc <- function(data, baseline_covariates, time_varying_covariates_transp
   data_wts <- data %>% mutate(Wts = estimate_weights(
     data = data, 
     baseline_covariates = baseline_covariates, 
-    time_varying_covariates_transplant = time_varying_covariates_transplant, 
+    time_varying_covariates_transplant = time_varying_covariates_transplant,  
     time_varying_covariates_censoring = time_varying_covariates_censoring,
     living_donor_usage_factor = living_donor_usage_factor
     ))
