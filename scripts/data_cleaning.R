@@ -1,7 +1,7 @@
 #read in the raw data
 cand_liin <- read.csv("CSV/cand_liin.csv", na.strings = "")
 stathist_liin <- read.csv("CSV/stathist_liin.csv", na.strings = "")
-tx_li <- read.csv("CSV/tx_li.csv", na.strings = "")
+tx_li <- read.csv("CSV/tx_li.csv", na.strings = "") 
 donor_deceased <- read.csv("CSV/donor_deceased.csv", na.strings="")
 
 #clean the 3 databases that we need to link
