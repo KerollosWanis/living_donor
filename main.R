@@ -4,7 +4,7 @@ requiredPackages = c(
   'plyr',
   'tidyverse',
   'data.table',
-  'pbapply',
+  'pbapply', 
   'ggthemes',
   'splines',
   'parallel'
